@@ -1,3 +1,8 @@
+
+## [Reference][link]
+
+[link]:http://pythonstudy.xyz/python/article/401-%EC%A0%95%EA%B7%9C-%ED%91%9C%ED%98%84%EC%8B%9D-Regex
+
 |패턴|설명|예제|
 |--|--|--|
 |^|이 패턴으로 시작해야 함|^abc : abc로 시작해야 함 (abcd, abc12 등)|
@@ -13,7 +18,3 @@
 |\w|문자를 의미|\w\w\w : 문자가 3개를 의미 (xyz, ABC 등)|
 |\s|화이트 스페이스를 의미하는데, [\t\n\r\f] 와 동일|\s\s : 화이트 스페이스 문자 2개 의미 (\r\n, \t\t 등)|
 |.|뉴라인(\n) 을 제외한 모든 문자를 의미|.{3} : 문자 3개 (F15, 0x0 등)|
-
-## [Reference][link]
-
-[link]:http://pythonstudy.xyz/python/article/401-%EC%A0%95%EA%B7%9C-%ED%91%9C%ED%98%84%EC%8B%9D-Regex
