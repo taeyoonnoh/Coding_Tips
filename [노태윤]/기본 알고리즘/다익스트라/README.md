@@ -32,3 +32,6 @@
  * max heap 으로 사용하고 싶다면 단순히 부호를 바꿔주면 됌
  * 다익스트라에서는 min heap 사용
 
+## 개선된 다익스트라 시간 복잡도
+* O(ElogV)
+* O(ElogE) --> O(ElogV<sup>2/<sup>) --> O(2ElogV) -- O(ElogV)
