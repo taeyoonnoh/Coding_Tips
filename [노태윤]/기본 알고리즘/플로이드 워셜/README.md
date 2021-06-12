@@ -10,3 +10,8 @@
 ## 점화식
 * D<sub>ab</sub> = min(D<sub>ab</sub>,D<sub>ak</sub> + D<sub>kb</sub>)
 
+## 시각복잡도
+* O(N^3)
+
+* 노드 수가 500 이 넘어가면 시간 초과 뜰 수도 있음.. 조심할 것!
+
