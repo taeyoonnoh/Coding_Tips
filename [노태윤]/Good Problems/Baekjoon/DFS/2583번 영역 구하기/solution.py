@@ -23,7 +23,7 @@ def dfs(x,y) :
         dfs(x+1,y)
         dfs(x,y-1)
         dfs(x,y+1)
-        return count
+        return count # 재귀적으로 구하기 (재귀로 풀 때 최종지점 잘 생각하자)
     return False
 
 answer_list = []

@@ -24,6 +24,6 @@ while q :
 
         if graph[dx][dy] not in string : 
             q.add((dx,dy,string+graph[dx][dy])) # set 를 사용했기 때문에 add
-            count = max(count,len(string)+1)
+            count = max(count,len(string)+1) # count 업데이트
 
 print(count)
