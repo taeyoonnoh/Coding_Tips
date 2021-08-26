@@ -26,3 +26,7 @@ for _ in range(N) :
 for i in range(10001):
     for j in range(arr[i]):
         print(i)
+
+# ============================================================
+
+# Python sort 함수 time complexity : N log N
