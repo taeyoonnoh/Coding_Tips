@@ -1,11 +1,11 @@
 N = int(input())
 def divsum(N) : 
-		if N == 1 : 
-				return 1
-		elif N%2 == 1 : 
-				return divsum(N-1) + N
-		else :
-				return divsum(N/2)*2 + N**2/4
+	if N == 1 : 
+		return 1
+	elif N%2 == 1 : 
+		return divsum(N-1) + N
+	else :
+		return divsum(N/2)*2 + N**2/4
 print(int(divsum(N)))
 
 # =======================================
