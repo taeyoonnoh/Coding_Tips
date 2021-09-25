@@ -1,3 +1,4 @@
+# 딕셔너리 memoization 으로 푸는 방법
 N,C = list(map(int,input().split()))
 new_dict = {}
 def combination(N,C) : 
@@ -12,3 +13,10 @@ def combination(N,C) :
     return new_dict[(N,C)]
 
 print(combination(N,C))
+
+# ================================================================
+# factorial 모듈로 푸는 방법
+import math
+N,K = list(map(int,input().split()))
+answer = math.factorial(N) // (math.factorial(K) * math.factorial(N-K))
+print(answer)
