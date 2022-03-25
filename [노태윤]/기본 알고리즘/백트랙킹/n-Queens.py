@@ -12,9 +12,9 @@ def promising(i, col) :
     k = 1
     flag = True
     while (k <= i and flag) : 
-        if (col[i] == col[k] or abs(col[i] - col[k]) == (i-k)) : 
+        if (col[i] == col[k] or abs(col[i] - col[k]) == abs(i-k)) : 
             flag = False
-          k += 1
+        k += 1
     return flag
 
   n = 4
