@@ -45,3 +45,35 @@ int main() {
 }
 
 // i + 'a' 하면 자동으로 type casting 되어서 character 형태로 나온다
+
+/////////////////////////////////////////////////////////////////////////////
+
+#include <iostream>
+#include <ctype.h>
+using namespace std;
+
+string str, ans;
+int alpha[26];
+
+int main() {
+
+    getline(cin, str);
+
+    for (int i=0; i<str.size();i++) {
+        if (str[i]>=65 && str[i]<=90) { 
+            if (str[i] + 13 > 90) ans += str[i] - 26 + 13;
+            else ans += str[i] + 13;
+        }
+        else if (str[i]>=97 && str[i]<=122) { 
+            if (str[i]+13 >122) ans += str[i] - 26 + 13;
+            else ans += str[i] + 13;
+        }
+        else ans += str[i];
+    }
+
+    cout << ans;
+    return 0;
+}
+
+// a~z : 97~122
+// A~Z : 65~90
